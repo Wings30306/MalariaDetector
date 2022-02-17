@@ -26,7 +26,7 @@ def page_cells_visualizer_body():
         f"patterns where we could intuitively differentiate one to another." 
         f"However, a small difference in color pigment of the average images is seen for both labels")
 
-      st.image(avg_parasitized, caption='Parasitized Cell - Avegare and Variability')
+      st.image(avg_parasitized, caption='Parasitized Cell - Average and Variability')
       st.image(avg_uninfected, caption='Uninfected Cell - Average and Variability')
       st.write("---")
 
